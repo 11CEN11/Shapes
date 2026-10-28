@@ -26,6 +26,14 @@ public class TestShapes {
 		t.changeColor("blue");
 		t.changeSize(200, 50);
 		t.slowMoveDiagonal(100, 1, -1);
+		
+
+		Triangle t2 = new Triangle();
+		t.makeVisible();
+		t.slowMoveVertical(25);
+		t.changeColor("cyan");
+		t.changeSize(200, 100);
+		t.slowMoveDiagonal(50, 1, -1);
 	}
 
 }
