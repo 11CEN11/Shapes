@@ -27,14 +27,11 @@ public class TestShapes {
 		t.changeSize(200, 50);
 		t.slowMoveDiagonal(100, 1, -1);
 		
-
-		Triangle t2 = new Triangle();
-		t.makeVisible();
-		t.slowMoveVertical(25);
-		t.changeColor("cyan");
-		t.changeSize(200, 100);
-		t.slowMoveDiagonal(50, 1, -1);
-		
+		Rect s2 = new Rect();
+		s.makeVisible();
+		s.slowMoveVertical(100);
+		s.changeColor("black");
+		s.changeSize(200, 25);
 	}
 
 }
