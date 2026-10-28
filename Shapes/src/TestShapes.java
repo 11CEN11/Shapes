@@ -34,6 +34,7 @@ public class TestShapes {
 		t.changeColor("cyan");
 		t.changeSize(200, 100);
 		t.slowMoveDiagonal(50, 1, -1);
+		
 	}
 
 }
